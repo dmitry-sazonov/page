@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+    .buyer-data__field {
+        display: table;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .buyer-data__field {
+        display: table-cell;
+    }
+}

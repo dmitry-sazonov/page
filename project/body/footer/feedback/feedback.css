@@ -1,0 +1,10 @@
+.feedback {
+    background: #000;
+    padding: 10px 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .feedback {
+        text-align: center;
+    }
+}

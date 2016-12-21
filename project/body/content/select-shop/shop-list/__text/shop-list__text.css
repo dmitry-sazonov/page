@@ -1,0 +1,10 @@
+.shop-list__text {
+    font-family: Verdana;
+    margin: 5px 0;
+    font-size: 12px;
+    color: inherit !important;
+}
+
+.shop-list__text_title {
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.buyer-data__submit {
+    color: #000;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: bold;
+    border: 1px solid #b9c94f;
+    background: linear-gradient(to bottom, #cddf59 0%, #b7c74a 100%);
+    line-height: 24px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .buyer-data__submit {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .buyer-data__submit {
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+}

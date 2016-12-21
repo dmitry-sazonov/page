@@ -1,0 +1,8 @@
+.navigator-tablet__icon {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    background: url(navigator-tablet.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}

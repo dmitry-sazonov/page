@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .product {
+        background: #fff;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product {
+        display: table;
+        margin-top: 20px;
+        vertical-align: top;
+        white-space: nowrap;
+    }
+}

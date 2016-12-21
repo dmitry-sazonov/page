@@ -1,0 +1,11 @@
+.cart-link-tablet__icon {
+    width: 60px;
+    height: 100%;
+    background-image: url(cart-link-tablet__icon.png);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: 50% 50%;
+    cursor: pointer;
+    background-color: #575757;
+}
+

@@ -1,0 +1,4 @@
+.container {
+    display: table-cell;
+    white-space: nowrap;
+}

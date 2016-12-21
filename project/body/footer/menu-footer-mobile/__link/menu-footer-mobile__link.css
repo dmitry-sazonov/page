@@ -1,0 +1,12 @@
+.menu-footer-mobile__link {
+    display: inline-block;
+    width: calc(50% - 3px);
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+    color: #666666;
+    cursor: pointer;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}   

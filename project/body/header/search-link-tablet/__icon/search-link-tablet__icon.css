@@ -1,0 +1,8 @@
+.search-link-tablet__icon {
+    width: 60px;
+    height: 50px;
+    background-image: url(search-link-tablet__icon.png);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: 50% 50%;
+}

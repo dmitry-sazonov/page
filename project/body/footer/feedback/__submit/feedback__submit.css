@@ -1,0 +1,7 @@
+.feedback__submit {
+    height: 22px;
+    color: #999;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 0 8px;
+}

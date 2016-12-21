@@ -1,0 +1,7 @@
+.header__navigation {
+    clear: both;
+}
+
+.header__navigation_active {
+    color: #aac124;
+}

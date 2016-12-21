@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .table-sizes {
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .table-sizes {
+        display: inline-block;
+        margin-top: 20px;
+        vertical-align: top;
+    }
+}

@@ -1,0 +1,18 @@
+.buyer-data__input {
+    font-family: Arial;
+    font-size: 14px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .buyer-data__input {
+        display: table-cell;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .buyer-data__input {
+        width: 80%;
+    }
+}

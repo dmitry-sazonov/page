@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .header-mobile {
+        display: table;
+        width: 100%;
+        white-space: nowrap;
+        border-bottom: 1px solid #d9d9d9;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-mobile {
+        display: none;
+    }
+}

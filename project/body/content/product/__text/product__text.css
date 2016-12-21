@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+    .product__text {
+        font-family: Arial;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__text {
+        font-family: Arial;
+        margin: 0;
+    }
+}

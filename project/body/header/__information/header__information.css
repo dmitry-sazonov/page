@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+    .header__information {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header__information {
+        text-align: center;
+        font-family: Verdana;
+        font-size: 14px;
+        padding: 8px 0;
+        border-top: 6px solid #000;
+        border-bottom: 2px solid #000;
+    }
+}

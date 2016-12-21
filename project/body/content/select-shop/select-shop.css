@@ -1,0 +1,5 @@
+.select-shop {
+    transition: opacity 0.5s linear;
+    overflow: hidden;
+    opacity: 1;
+}

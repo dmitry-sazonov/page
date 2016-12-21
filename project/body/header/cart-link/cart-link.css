@@ -1,0 +1,16 @@
+@media screen and (max-width: 1023px) {
+    .cart-link {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cart-link {
+        cursor: pointer;
+        display: table-cell;
+        vertical-align: top;
+        width: 1%;
+        white-space: nowrap;
+    }
+}
+

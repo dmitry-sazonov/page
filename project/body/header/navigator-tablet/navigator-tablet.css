@@ -1,0 +1,23 @@
+@media screen and (max-width: 767px) {
+    .navigator-tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navigator-tablet {
+        display: table-cell;
+        vertical-align: middle;
+        width: 120px;
+        height: 50px;
+        white-space: nowrap;
+        background: #000;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navigator-tablet {
+        display: none;
+    }
+}

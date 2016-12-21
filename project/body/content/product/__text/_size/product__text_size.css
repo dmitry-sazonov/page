@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) {
+    .product__text_size_large {
+        font-size: 18px;
+    }
+
+    .product__text_size_normal {
+        font-size: normal;
+    }
+
+    .product__text_size_small {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__text_size_large {
+        font-size: 24px;
+    }
+
+    .product__text_size_normal {
+        font-size: normal;
+    }
+
+    .product__text_size_small {
+        font-size: 12px;
+    }
+}

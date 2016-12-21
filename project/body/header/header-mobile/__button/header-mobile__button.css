@@ -1,0 +1,15 @@
+.header-mobile__button {
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    background-size: auto 75%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-right: 1px solid #d9d9d9;
+    cursor: pointer;
+}
+
+.header-mobile__button_full {
+    display: inline-block !important;
+    width: 100% !important;
+}

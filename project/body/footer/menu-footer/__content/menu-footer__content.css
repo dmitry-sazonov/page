@@ -1,0 +1,8 @@
+.menu-footer__content {
+    width: 100%; 
+    display: table; 
+    margin: 0 auto; 
+    table-layout: fixed; 
+    padding-top: 35px; 
+    padding-bottom: 40px;
+}

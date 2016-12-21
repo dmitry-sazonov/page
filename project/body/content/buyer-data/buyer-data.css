@@ -1,0 +1,6 @@
+.buyer-data {
+    transition: opacity 0.5s linear;
+    width: 100%;
+    overflow: hidden;
+    opacity: 1;
+}

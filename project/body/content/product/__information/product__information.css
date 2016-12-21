@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+    .product__information {
+        display: block;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__information {
+        display: table-cell;
+        vertical-align: top;
+        padding: 0 20px;
+        white-space: normal;
+        margin: 0 auto;
+    }
+}

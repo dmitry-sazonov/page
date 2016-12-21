@@ -1,0 +1,7 @@
+.navigation__items {
+    margin: 0 auto;
+    padding: 0;
+    display: table;
+    width: 95%;
+    margin-bottom: -6px;    
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+    .search-link-tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .search-link-tablet {
+        width: 50px;
+        display: table-cell;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .search-link-tablet {
+        display: none;
+    }
+}
+

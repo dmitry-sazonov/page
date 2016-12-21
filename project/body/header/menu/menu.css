@@ -1,0 +1,16 @@
+@media screen and (min-width: 1024px) {
+    .menu {
+        display: table-cell;
+        vertical-align: top;
+        text-align: right;
+        width: 1%;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .menu {
+        display: none;
+    }
+}
+

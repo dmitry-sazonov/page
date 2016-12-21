@@ -1,0 +1,14 @@
+.copyright__text {
+    color: #666;
+    font-size: 12px;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright__text {
+        text-align: center;
+        display: block;
+        margin: 5px 0;
+    }
+}

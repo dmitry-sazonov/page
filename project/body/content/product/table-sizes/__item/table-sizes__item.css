@@ -1,0 +1,22 @@
+.table-sizes__item {
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 12px;
+    margin: 0 4px 4px 0;
+    padding: 0 5px;
+    background: #fff;
+    text-align: center;
+    min-width: 30px;
+    line-height: 22px;
+    border: 1px solid #9c9c9c;
+    font-family: Verdana;
+}
+
+.table-sizes__item_hover {
+    background: #CDDF59 !important;
+}
+
+.table-sizes__item_active {
+    background: #aac124 !important;
+}

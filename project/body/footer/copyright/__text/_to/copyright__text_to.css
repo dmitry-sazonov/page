@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+    .copyright__text_to_left {
+        float: left;
+    }
+
+    .copyright__text_to_right {
+        float: right;
+    }
+}
+

@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+    .content__title {
+        margin-bottom: 5px;
+        background-color: #E4E4E4;
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .content__title {
+        
+    }
+}

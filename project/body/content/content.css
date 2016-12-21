@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+    .content {
+        background-color: #E4E4E4;
+        padding: 30px 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        padding: 0 50px 50px 50px;
+    }
+}
+

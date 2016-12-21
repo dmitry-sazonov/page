@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .buyer-data__fields {
+        background-color: #fff;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .buyer-data__fields {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+}

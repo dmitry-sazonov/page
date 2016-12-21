@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu-tablet__item {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background-size: 30px auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        border-left: 1px solid #cccccc;
+    }
+
+    .menu-tablet__marker {
+        background-image: url(menu-tablet__marker.png);
+    }
+
+    .menu-tablet__liked {
+        background-image: url(menu-tablet__liked.png);
+    }
+
+    .menu-tablet__sign-in {
+        background-image: url(menu-tablet__sign-in.png);
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .menu-tablet__item {
+        display: none;
+    }
+}
+

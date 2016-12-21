@@ -1,0 +1,18 @@
+.navigation__item {
+    position: relative;
+    text-transform: uppercase;
+    display: table-cell;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 10px 0;
+}
+
+.navigation__item_active {
+    color: #aac124;
+    border-bottom: 6px solid #aac124;
+}

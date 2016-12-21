@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+    .menu-tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu-tablet {
+        display: table-cell;
+        width: 1%;
+        height: 50px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu-tablet {
+        display: none;
+    }
+}
+

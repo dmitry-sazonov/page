@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .product__name {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__name {
+        text-align: left;
+    }
+}

@@ -1,0 +1,9 @@
+.buyer-data__label {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buyer-data__label_red {
+    color: #f00;
+}

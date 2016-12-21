@@ -1,0 +1,19 @@
+.shop-list {
+    display: inline-block;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .shop-list {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .shop-list {
+        width: 30%;
+        height: 500px;
+    }
+}

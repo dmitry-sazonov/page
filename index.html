@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Заказ</title>
+    
+    <link rel="stylesheet" href="project/body/body.css">
+    
+    <link rel="stylesheet" href="project/body/header/header.css">
+    <link rel="stylesheet" href="project/body/header/__panel/header__panel.css">
+    <link rel="stylesheet" href="project/body/header/__navigation/header__navigation.css">
+    <link rel="stylesheet" href="project/body/header/__information/header__information.css">
+    
+    <link rel="stylesheet" href="project/body/header/logo-tablet/logo-tablet.css">
+    <link rel="stylesheet" href="project/body/header/logo/logo.css">
+    <link rel="stylesheet" href="project/body/header/logo/__image/logo__image.css">
+    
+    <link rel="stylesheet" href="project/body/header/navigator-tablet/navigator-tablet.css">
+    <link rel="stylesheet" href="project/body/header/navigator-tablet/__icon/navigator-tablet__icon.css">
+    <link rel="stylesheet" href="project/body/header/navigator-tablet/__label/navigator-tablet__label.css">
+    
+    <link rel="stylesheet" href="project/body/header/phone-line/phone-line.css">
+    <link rel="stylesheet" href="project/body/header/phone-line/__p/phone-line__p.css">
+    <link rel="stylesheet" href="project/body/header/phone-line/__p/_size/phone-line__p_size_little.css">
+    <link rel="stylesheet" href="project/body/header/phone-line/__p/_size/phone-line__p_size_large.css">
+    <link rel="stylesheet" href="project/body/header/phone-line/__p/_size/phone-line__p_size_description.css">
+    <link rel="stylesheet" href="project/body/header/phone-line/__p/_tablet/phone-line__p_tablet.css">
+    
+    <link rel="stylesheet" href="project/body/header/search-link-tablet/search-link-tablet.css">
+    <link rel="stylesheet" href="project/body/header/search-link-tablet/__icon/search-link-tablet__icon.css">
+    <link rel="stylesheet" href="project/body/header/search-form/search-form.css">
+    <link rel="stylesheet" href="project/body/header/search-form/__input/search-form__input.css">
+    <link rel="stylesheet" href="project/body/header/search-form/__submit/search-form__submit.css">
+    
+    <link rel="stylesheet" href="project/body/header/menu-tablet/menu-tablet.css">
+    <link rel="stylesheet" href="project/body/header/menu-tablet/__item/menu-tablet__item.css">
+    
+    <link rel="stylesheet" href="project/body/header/menu/menu.css">
+    <link rel="stylesheet" href="project/body/header/menu/__items/menu__items.css">
+    <link rel="stylesheet" href="project/body/header/menu/__item/menu__item.css">
+    <link rel="stylesheet" href="project/body/header/cart-link-tablet/cart-link-tablet.css">
+    <link rel="stylesheet" href="project/body/header/cart-link-tablet/__icon/cart-link-tablet__icon.css">
+    <link rel="stylesheet" href="project/body/header/cart-link/cart-link.css">
+    <link rel="stylesheet" href="project/body/header/cart-link/__count/cart-link__count.css">
+    <link rel="stylesheet" href="project/body/header/cart-link/__text/cart-link__text.css">
+    <link rel="stylesheet" href="project/body/header/navigation/navigation.css">
+    <link rel="stylesheet" href="project/body/header/navigation/__items/navigation__items.css">
+    <link rel="stylesheet" href="project/body/header/navigation/__item/navigation__item.css">
+        
+    <link rel="stylesheet" href="project/body/header/header-mobile/header-mobile.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/__button/header-mobile__button.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/navigator-mobile/navigator-mobile.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/button-back-mobile/button-back-mobile.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/logo-mobile/logo-mobile.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/button-search-mobile/button-search-mobile.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/cart-link-mobile/cart-link-mobile.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/phone-line-mobile/phone-line-mobile.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/phone-line-mobile/__text/phone-line-mobile__text.css">
+    <link rel="stylesheet" href="project/body/header/header-mobile/phone-line-mobile/__tel/phone-line-mobile__tel.css">
+    
+    <link rel="stylesheet" href="project/body/content/content.css">
+    <link rel="stylesheet" href="project/body/content/__no-mobile/content__no-mobile.css">
+    <link rel="stylesheet" href="project/body/content/__title/content__title.css">
+    <link rel="stylesheet" href="project/body/content/__p/content__p.css">
+    <link rel="stylesheet" href="project/body/content/__p/_size/content__p_size.css">
+    <link rel="stylesheet" href="project/body/content/__p/_inline/content__p_inline.css">
+    <link rel="stylesheet" href="project/body/content/__p/_align/content__p_align.css">
+    <link rel="stylesheet" href="project/body/content/select-city/select-city.css">
+    <link rel="stylesheet" href="project/body/content/select-city/__item/select-city__item.css">
+    <link rel="stylesheet" href="project/body/content/select-city/__items/select-city__items.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/select-shop.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/_hide/select-shop_hide.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/shops/shops.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/shop-list/shop-list.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/shop-list/_list-scroll/shop-list_list-scroll.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/shop-list/__item/shop-list__item.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/shop-list/__text/shop-list__text.css">
+    <link rel="stylesheet" href="project/body/content/select-shop/shops-map/shops-map.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/buyer-data.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/_hide/buyer-data_hide.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/__fields/buyer-data__fields.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/__field/buyer-data__field.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/__label/buyer-data__label.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/__send/buyer-data__send.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/__input/buyer-data__input.css">
+    <link rel="stylesheet" href="project/body/content/buyer-data/__submit/buyer-data__submit.css">
+    <link rel="stylesheet" href="project/body/content/product/product.css">
+    <link rel="stylesheet" href="project/body/content/product/__name/product__name.css">
+    <link rel="stylesheet" href="project/body/content/product/__image/product__image.css">
+    <link rel="stylesheet" href="project/body/content/product/__information/product__information.css">
+    <link rel="stylesheet" href="project/body/content/product/__table/product__table.css">
+    <link rel="stylesheet" href="project/body/content/product/__text/product__text.css">
+    <link rel="stylesheet" href="project/body/content/product/__text/_size/product__text_size.css">
+    <link rel="stylesheet" href="project/body/content/product/__text/_color/product__text_color.css">
+    <link rel="stylesheet" href="project/body/content/product/table-colors/table-colors.css">
+    <link rel="stylesheet" href="project/body/content/product/table-colors/__item/table-colors__item.css">
+    <link rel="stylesheet" href="project/body/content/product/table-sizes/table-sizes.css">
+    <link rel="stylesheet" href="project/body/content/product/table-sizes/__item/table-sizes__item.css">
+    
+    <link rel="stylesheet" href="project/body/footer/footer.css">
+    <link rel="stylesheet" href="project/body/footer/__a/footer__a.css">
+    <link rel="stylesheet" href="project/body/footer/__no-mobile/footer__no-mobile.css">
+    <link rel="stylesheet" href="project/body/footer/__a/_hover/footer__a_hover.css">
+    <link rel="stylesheet" href="project/body/footer/__element/footer__element.css">
+    <link rel="stylesheet" href="project/body/footer/__element/_to/footer__element_to.css">
+    <link rel="stylesheet" href="project/body/footer/feedback/feedback.css">
+    <link rel="stylesheet" href="project/body/footer/feedback/__text/feedback__text.css">
+    <link rel="stylesheet" href="project/body/footer/feedback/__form/feedback__form.css">
+    <link rel="stylesheet" href="project/body/footer/feedback/__input/feedback__input.css">
+    <link rel="stylesheet" href="project/body/footer/feedback/__submit/feedback__submit.css">
+    <link rel="stylesheet" href="project/body/footer/feedback/__email-mobile/feedback__email-mobile.css">
+    <link rel="stylesheet" href="project/body/footer/menu-footer/menu-footer.css">
+    <link rel="stylesheet" href="project/body/footer/menu-footer/__content/menu-footer__content.css">
+    <link rel="stylesheet" href="project/body/footer/menu-footer/container/container.css">
+    <link rel="stylesheet" href="project/body/footer/menu-footer/container/__item/container__item.css">
+    <link rel="stylesheet" href="project/body/footer/menu-footer/container/__title/container__title.css">
+    <link rel="stylesheet" href="project/body/footer/menu-footer-mobile/menu-footer-mobile.css">
+    <link rel="stylesheet" href="project/body/footer/menu-footer-mobile/__link/menu-footer-mobile__link.css">
+    <link rel="stylesheet" href="project/body/footer/copyright/copyright.css">
+    <link rel="stylesheet" href="project/body/footer/copyright/__link/copyright__link.css">
+    <link rel="stylesheet" href="project/body/footer/copyright/__text/copyright__text.css">
+    <link rel="stylesheet" href="project/body/footer/copyright/__text/_to/copyright__text_to.css">
+    <link rel="stylesheet" href="project/body/footer/copyright/__logo/copyright__logo.css">
+    
+    
+    <script type="text/javascript" src="libs/jquery-3.1.1.min.js"></script>
+    
+    <script type="text/javascript" src="project/body/header/navigation/__item/navigation__item.js"></script>
+    <script type="text/javascript" src="project/body/content/product/table-colors/__item/table-colors__item.js"></script>
+    <script type="text/javascript" src="project/body/content/product/table-sizes/__item/table-sizes__item.js"></script>
+    <script type="text/javascript" src="project/body/footer/menu-footer/container/__item/container__item.js"></script>
+    <script type="text/javascript" src="project/body/content/select-shop/shop-list/__item/shop-list__item.js"></script>
+    
+</head>
+
+<body class="body">
+
+    <div class="header">
+        
+        <div class="header__panel">
+        
+            <div class="navigator-tablet">
+                <div class="navigator-tablet__icon"></div>
+                <p class="navigator-tablet__label">МЕНЮ</p>
+            </div>
+        
+            <div class="logo">
+                <img src="images/logo__image.png" alt="Marks And Spencer" class="logo__image">
+            </div>
+                    
+            <div class="phone-line">
+                <p class="phone-line__p phone-line__p_size_little phone-line__p_tablet">Горячая линия M&S</p>
+                <p class="phone-line__p phone-line__p_size_large">8 800 100 10 10</p>
+                <p class="phone-line__p phone-line__p_size_description">Звонок по России бесплатный</p>
+            </div>
+            
+            <div class="logo-tablet"></div>
+            
+            <form class="search-form" action="" method="POST">
+                <input type="text" placeholder="Поиск" class="search-form__input">
+                <input type="submit" class="search-form__submit" value="">
+            </form>
+            
+            <div class="search-link-tablet">
+                <div class="search-link-tablet__icon"></div>
+            </div>
+            
+            <div class="menu">
+                <ul class="menu__items">
+                    <li class="menu__item">Карта магазинов</li>
+                    <li class="menu__item">Избранное</li>
+                    <li class="menu__item">Мой профиль</li>
+                </ul>
+            </div>
+            
+            <div class="menu-tablet">
+                <div class="menu-tablet__item menu-tablet__marker"></div>
+                <div class="menu-tablet__item menu-tablet__liked"></div>
+                <div class="menu-tablet__item menu-tablet__sign-in"></div>
+            </div>
+        
+            <div class="cart-link">
+                <p class="cart-link__text">Моя корзина <span class="cart-link__count">0</span></p>
+            </div>
+                    
+            <div class="cart-link-tablet">
+                <div class="cart-link-tablet__icon"></div>
+            </div>
+            
+            <div class="header-mobile">
+                <div class="header-mobile__button navigator-mobile"></div>
+                <div class="header-mobile__button button-back-mobile"></div>
+                <div class="header-mobile__button header-mobile__button_full logo-mobile"></div>
+                <div class="header-mobile__button button-search-mobile"></div>
+                <div class="header-mobile__button cart-link-mobile"></div>
+            </div>
+        
+            <div class="phone-line-mobile">
+                <p class="phone-line-mobile__tel">8 800 100 10 10</p>
+                <p class="phone-line-mobile__text phone-line-mobile__text_bold">Горячая линия</p>
+                <p class="phone-line-mobile__text">По России бесплатно</p>
+            </div>
+                
+        </div>
+                 
+        <div class="navigation header__navigation">
+            <ul class="navigation__items">
+                <li class="navigation__item navigation__item_active">Женщинам</li>
+                <li class="navigation__item">Мужчинам</li>
+                <li class="navigation__item">Детям</li>
+                <li class="navigation__item">Белье</li>
+                <li class="navigation__item">Нестандартные размеры</li>
+                <li class="navigation__item">Коллекции</li>
+                <li class="navigation__item">Акции и скидки</li>
+                <li class="navigation__item">Lookbook</li>
+                <li class="navigation__item">Блог</li>
+            </ul>
+        </div>
+                
+        <div class="header__information">
+            Бесплатная доставка при заказе от 7000 рублей.
+        </div>
+
+    </div>
+    
+    <div class="content">
+    
+        <p class="content__p content__p_size_large content__no-mobile">Зарезервировать товар</p>
+        
+        <p class="content__p content__p_size_average content__title">Выберите цвет и размер товара:</p>
+            
+        <div class="product">
+        
+            <img src="images/products/item-1.png" alt="Слегка приталенная футболка Cool Comfort" class="product__image">
+                                
+            <div class="product__information">
+            
+                <div class="product__name">
+                    <p class="product__text product__text_size_large">Слегка приталенная футболка Cool Comfort</p>
+                    <p class="product__text product__text_size_normal product__text_color_grey">M&S COLLECTION</p>
+                    <p class="product__text product__text_size_small product__text_color_light-gray">Артикул: T285245M</p>
+                </div>
+                
+                <div class="table-colors">
+                    <p class="product__text product__text_size_large">Цвет:</p>
+                    <img src="images/colors/color-1.jpg" alt="Черный" title="Черный" class="table-colors__item table-colors__item_active" data="1">
+                    <img src="images/colors/color-2.jpg" alt="Аквамарин" title="Аквамарин" class="table-colors__item" data="2">
+                    <img src="images/colors/color-3.jpg" alt="Серый" title="Серый" class="table-colors__item" data="3">
+                    <img src="images/colors/color-4.jpg" alt="Бирюзовый" title="Бирюзовый" class="table-colors__item" data="4">
+                </div>
+                
+                <div class="table-sizes">
+                    <p class="product__text product__text_size_large">Размер:</p>
+                    <div class="table-sizes__item">S</div>
+                    <div class="table-sizes__item">M</div>
+                    <div class="table-sizes__item">L</div>
+                    <div class="table-sizes__item">XL</div>
+                    <div class="table-sizes__item">XX L</div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="select-city">
+            <p class="content__p content__p_size_average content__p_inline content__title">Выберите ваш город:</p>
+            <select class="select-city__items">
+                <option class="select-city__item">Нижний Новгород</option>
+                <option class="select-city__item">Москва</option>
+                <option class="select-city__item">Санкт-Петербург</option>
+                <option class="select-city__item">Саратов</option>
+            </select>
+        </div>
+        
+        <div class="select-shop select-shop_hide">
+        
+            <div class="shops">
+            
+                <p class="content__p content__p_size_average content__title">Выберите магазины где можно зарезервировать товар:</p>
+            
+                <div class="shop-list shop-list_list-scroll">
+                    <div class="shop-list__item">
+                        <p class="shop-list__text shop-list__text_title">ТРЦ Европейский</p>
+                        <p class="shop-list__text shop-list__text_color_grey">111111, Московская область, Мытищенский район, Алтуфьевское шоссе д. 123</p>
+                        <p class="shop-list__text shop-list__text_color_grey">тел.: (495) 933-06-80</p>
+                        <p class="shop-list__text shop-list__text_color_grey">часы работы: 10:00 - 22:00</p>
+                    </div>
+                    <div class="shop-list__item">
+                        <p class="shop-list__text shop-list__text_title">ТРЦ Европейский</p>
+                        <p class="shop-list__text shop-list__text_color_grey">111111, Московская область, Мытищенский район, Алтуфьевское шоссе д. 123</p>
+                        <p class="shop-list__text shop-list__text_color_grey">тел.: (495) 933-06-80</p>
+                        <p class="shop-list__text shop-list__text_color_grey">часы работы: 10:00 - 22:00</p>
+                    </div>
+                    <div class="shop-list__item">
+                        <p class="shop-list__text shop-list__text_title">ТРЦ Европейский</p>
+                        <p class="shop-list__text shop-list__text_color_grey">111111, Московская область, Мытищенский район, Алтуфьевское шоссе д. 123</p>
+                        <p class="shop-list__text shop-list__text_color_grey">тел.: (495) 933-06-80</p>
+                        <p class="shop-list__text shop-list__text_color_grey">часы работы: 10:00 - 22:00</p>
+                    </div>
+                    <div class="shop-list__item">
+                        <p class="shop-list__text shop-list__text_title">ТРЦ Европейский</p>
+                        <p class="shop-list__text shop-list__text_color_grey">111111, Московская область, Мытищенский район, Алтуфьевское шоссе д. 123</p>
+                        <p class="shop-list__text shop-list__text_color_grey">тел.: (495) 933-06-80</p>
+                        <p class="shop-list__text shop-list__text_color_grey">часы работы: 10:00 - 22:00</p>
+                    </div>
+                    <div class="shop-list__item">
+                        <p class="shop-list__text shop-list__text_title">ТРЦ Европейский</p>
+                        <p class="shop-list__text shop-list__text_color_grey">111111, Московская область, Мытищенский район, Алтуфьевское шоссе д. 123</p>
+                        <p class="shop-list__text shop-list__text_color_grey">тел.: (495) 933-06-80</p>
+                        <p class="shop-list__text shop-list__text_color_grey">часы работы: 10:00 - 22:00</p>
+                    </div>
+                    <div class="shop-list__item">
+                        <p class="shop-list__text shop-list__text_title">ТРЦ Европейский</p>
+                        <p class="shop-list__text shop-list__text_color_grey">111111, Московская область, Мытищенский район, Алтуфьевское шоссе д. 123</p>
+                        <p class="shop-list__text shop-list__text_color_grey">тел.: (495) 933-06-80</p>
+                        <p class="shop-list__text shop-list__text_color_grey">часы работы: 10:00 - 22:00</p>
+                    </div>
+                    <div class="shop-list__item">
+                        <p class="shop-list__text shop-list__text_title">ТРЦ Европейский</p>
+                        <p class="shop-list__text shop-list__text_color_grey">111111, Московская область, Мытищенский район, Алтуфьевское шоссе д. 123</p>
+                        <p class="shop-list__text shop-list__text_color_grey">тел.: (495) 933-06-80</p>
+                        <p class="shop-list__text shop-list__text_color_grey">часы работы: 10:00 - 22:00</p>
+                    </div>
+                </div>
+                
+                <div class="shops-map shops-map_hide content__no-mobile"></div>
+            
+            </div>
+            
+        </div>
+        
+        <form class="buyer-data buyer-data_hide" action="" method="POST">
+        
+            <p class="content__p content__p_size_average content__title">Укажите ваши контактные данные:</p>
+            
+            <div class="buyer-data__fields">
+
+                <div class="buyer-data__field">
+                    <p class="buyer-data__label">Имя:<span class="buyer-data__label_red">*</span></p>
+                    <input type="text" placeholder="Укажите Ваше имя" class="buyer-data__input">
+                </div>
+                
+                <div class="buyer-data__field">
+                    <p class="buyer-data__label">Фамилия:<span class="buyer-data__label_red">*</span></p>
+                    <input type="text" placeholder="Укажите Вашу фамилию" class="buyer-data__input">
+                </div>
+
+                <div class="buyer-data__field">
+                    <p class="buyer-data__label">Номер телефона:<span class="buyer-data__label buyer-data__label_red">*</span></p>
+                    +7 <input type="text" placeholder="(ХХХ) ХХ-ХХ-ХХ" class="buyer-data__input">
+                </div>
+
+                
+                
+            </div>
+            
+            <div class="buyer-data__send">
+                <input type="submit" value="Зарезервировать" class="buyer-data__submit">
+                <span class="buyer-data__label buyer-data__label_red">*</span> - обязательные поля
+            </div>
+            
+        </form>
+    
+    </div>
+    
+    <div class="footer">
+    
+        <div class="feedback">
+        
+            <div class="footer__element">
+                <span class="feedback__text">Мы соцсетях:</span>
+            </div>
+
+            <div class="feedback__element footer__element_to_right footer__no-mobile">
+                <span class="feedback__text">Подпишись на новости:</span>
+                <form class="feedback__form" action="" method="POST">
+                    <input type="text" placeholder="Ваш e-mail" class="feedback__input">
+                    <input type="submit" value="Подписаться" class="feedback__submit">
+                </form>
+            </div>
+            
+        </div>
+            
+        <div class="feedback__email-mobile">
+            Получать новости по e-mail
+        </div>
+        
+        <div class="menu-footer">
+        
+            <div class="menu-footer__content footer__no-mobile">
+            
+                <div class="container">
+                    <p class="container__title">Помощь</p>
+                    <a href="#" class="container__item">FAQ</a>
+                    <a href="#" class="container__item">Таблица размеров</a>
+                    <a href="#" class="container__item">Карта магазина</a>
+                    <a href="#" class="container__item">Карта сайта</a>
+                </div>
+            
+                <div class="container">
+                    <p class="container__title">Сервис</p>
+                    <a href="#" class="container__item">Оплата и доставка</a>
+                    <a href="#" class="container__item">Политика возвратов</a>
+                    <a href="#" class="container__item">Отслежевание заказов</a>
+                    <a href="#" class="container__item">Бонусная программа</a>
+                </div>
+            
+                <div class="container">
+                    <p class="container__title">О нас</p>
+                    <a href="#" class="container__item">О компании</a>
+                    <a href="#" class="container__item">Высокие технологии</a>
+                    <a href="#" class="container__item">Вакансии</a>
+                    <a href="#" class="container__item">Контакты</a>
+                </div>
+            
+                <div class="container">
+                    <p class="container__title">Безопасность</p>
+                    <a href="#" class="container__item">Политика безопасности</a>
+                    <a href="#" class="container__item">Публиная оферта</a>
+                </div>
+                
+            </div>
+                
+        </div>
+        
+        <div class="menu-footer-mobile">
+            
+            <div class="menu-footer-mobile__link">Помощь</div>
+            <div class="menu-footer-mobile__link">Политика безопасности</div>
+            <div class="menu-footer-mobile__link">Оплата и доставка</div>
+            <div class="menu-footer-mobile__link">Публичная оферта</div>
+            <div class="menu-footer-mobile__link">Политика возвратов</div>
+            <div class="menu-footer-mobile__link">Контакты</div>
+            
+        </div>
+        
+        <div class="copyright">
+        
+            <div class="copyright__text copyright__text_to_left footer__element">&copy; 2014 Marks and Spencer pic</div>
+            <div class="copyright__text copyright__text_to_right footer__element">Сделано в «<a href="http://morizo.ru" target="_blank" class="copyright__link">Моризо</a>»</div>
+            <div class="copyright__logo footer__no-mobile"></div>
+            
+        </div>
+    
+    </div>
+    
+</body>
+
+</html>

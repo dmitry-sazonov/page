@@ -1,0 +1,16 @@
+@media screen and (max-width: 1024px) {
+    .search-form {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .search-form {
+        display: table-cell;
+        vertical-align: top;
+        white-space: nowrap;
+        text-align: right;
+        padding: 3px 10px;
+    }
+}
+
